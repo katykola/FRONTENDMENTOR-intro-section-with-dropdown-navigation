@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-mobile">
+        <img class="logo" src="/images/logo.svg" alt="" />
+        <img id="iconMenu" src="/images/icon-menu.svg" alt="" />
+      </div>
+      <ul id="menu" class="menu-mobile">
+        <img id="iconClose" src="/images/icon-close-menu.svg" alt="" />
+        <ul class="menu-list">
+          <li id="features" class="menu-item">
+            <div class="menu-item-div">
+              <span class="menu-item-hover">Features</span
+                ><img class="icon-arrow" src="/images/icon-arrow-down.svg" alt="" />
+            </div>
+              <div id="featuresDiv" class="menu-small-div features-div">
+              <ul class="menu-small" id="features-menu">
+                <li class="menu-small-item">
+                  <img
+                    class="menu-small-icon"
+                    src="/images/icon-todo.svg"
+                    alt=""
+                  /><span>To do list</span>
+                </li>
+                <li class="menu-small-item">
+                  <img
+                    class="menu-small-icon"
+                    src="/images/icon-calendar.svg"
+                    alt=""
+                  /><span>Calendar</span>
+                </li>
+                <li class="menu-small-item">
+                  <img
+                    class="menu-small-icon"
+                    src="/images/icon-reminders.svg"
+                    alt=""
+                  /><span>Reminders</span>
+                </li>
+                <li class="menu-small-item">
+                  <img
+                    class="menu-small-icon"
+                    src="/images/icon-planning.svg"
+                    alt=""
+                  /><span>Planning</span>
+                </li>
+              </ul>
+            </div>
+            </li>
+
+          <li id="company" class="menu-item">
+            <div class="menu-item-div">
+              <span class="menu-item-hover">Company</span
+              ><img class="icon-arrow" src="/images/icon-arrow-down.svg" alt="" />
+            </div>
+
+            <div id="companyDiv" class="menu-small-div">
+              <ul class="menu-small" id="company-menu">
+                <li class="menu-small-item">History</li>
+                <li class="menu-small-item">Our Team</li>
+                <li class="menu-small-item">Blog</li>
+              </ul>
+            </div>
+          </li>
+
+
+          <li class="menu-item menu-item-hover">Careers</li>
+          <li class="menu-item menu-item-hover">About</li>
+        </ul>
+        <div class="menu-login-register">
+          <p id="login">Login</p>
+          <button id="btn-register">Register</button>
+        </div>
+      </ul>
+    </div>
+
+    <div class="hero-section">
+      <img
+        class="hero"
+        src="/images/image-hero-desktop.png"
+        loading="lazy"
+        alt="hero"
+      />
+      <img
+        class="hero-mobile"
+        src="/images/image-hero-mobile.png"
+        loading="lazy"
+        alt="hero"
+      />
+      <div class="claim">
+        <div class="content">
+          <h1>
+            Make<br class="h1-break" />
+            remote work
+          </h1>
+          <p class="content-paragraph">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button id="btn">Learn more</button>
+        </div>
+        <div class="clients">
+          <img class="client" src="/images/client-databiz.svg" alt="" />
+          <img class="client" src="/images/client-audiophile.svg" alt="" />
+          <img class="client" src="/images/client-meet.svg" alt="" />
+          <img class="client" src="/images/client-maker.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
